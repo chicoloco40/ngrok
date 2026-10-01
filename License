@@ -1,0 +1,25 @@
+import requests
+
+url = "https://api.ngrok.com/reserved_domains/{id}"
+
+headers = {
+    "ngrok-version": "2",
+    "Authorization": "Bearer <token>"
+}
+
+response = requests.get(url, headers=headers)
+
+print(response.text)
+
+Founder App Gaming
+COO/CTO/Dev/Journalism
+Driving Global Music Syndicate & Record Label (CL40 World) and (WR Beats) 🜃 
+Official Rights: Amnesty & ASCAP & Google Developer at Chico Loco 40
+Strategic Music Entrepreneurship Global Digital Asset Management and LB0025
+a global syndicate produced: QURANTA-FOUR-ZERO
+Business: founder.american@cl40.world
+https://cl40.contact/
+https://founder.cl40.world/  
+
+}
+
