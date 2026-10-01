@@ -1,0 +1,12 @@
+import requests
+
+url = "https://api.ngrok.com/reserved_domains/{id}"
+
+headers = {
+    "ngrok-version": "2",
+    "Authorization": "Bearer <token>"
+}
+
+response = requests.get(url, headers=headers)
+
+print(response.text)
